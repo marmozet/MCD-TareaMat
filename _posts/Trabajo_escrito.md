@@ -1,0 +1,86 @@
+---
+title: "Tarea Individual de Matematicas"
+date: 2023-06-05
+---
+![Escudo Unison](https://upload.wikimedia.org/wikipedia/commons/6/68/Escudo_Unison.png)
+## Universidad de Sonora
+<br>
+<br>
+<center>Curso Propedéutico para Maestría en ciencia de datos</center>
+<p align="center">
+  <img width="250" height="250" src="https://mcd.unison.mx/wp-content/uploads/2020/02/400dpiLogoCropped-300x294.png">
+</p>
+<br>
+<center>Dr. Jesús Francisco Espinoza</center>
+<br>
+<center>Matemáticas: Redes Neuronales</center>
+<br>
+<br>
+<div style="text-align: right"> Juan Antonio Hernandez Cota<br>31 de mayo del 2023<br>Hermosillo, Sonora </div>
+<br>
+
+1. Definición de una red Neuronal con ejemplos.
+
+Para el desarrollo de un modelo de Inteligencia artificial por medio de una red neuronal, consisten en varias capas de neuronas artificiales interconectadas alimentadas por funciones de activación que ayudan a encenderlas o apagarlas. Al igual que los algoritmos de máquina tradicionales , aquí también hay ciertos valores que las redes neuronales aprenden en la fase de entrenamiento. Más específicamente se componen de:
+
+
+Consta de muchos nodos(neuronas) en muchos capas
+Los pesos son valores numéricos que se multiplican por entradas. En retropropagación, se modifican para reducir la pérdida. En palabras simples, los pesos son valores aprendidos por la máquina de las redes neuronales. Se autoajustan según la diferencia entre las salidas previstas y las entradas de entrenamiento.
+La función de activación es una fórmula matemática que ayuda a la neurona a encenderse o apagarse.
+Tipos capas de redes neuronales
+La capa de entrada representa las dimensiones del vector de entrada.
+La capa oculta representa los nodos intermedios que dividen el espacio de entrada en regiones con límites (suaves). Toma un conjunto de entradas ponderadas y produce una salida a través de una función de activación.
+La capa de salida representa la salida de la red neuronal.
+
+Los modelos de las redes neuronales artificiales están basados principalmente en modelos matemáticos definidos por la función f: X→Y o una distribución más X o ambos X e Y; aunque a veces los modelos también se asocian a algoritmos de aprendizaje.
+
+Se dice que cuando Turing creó las máquinas tipo B, basó el funcionamiento de las redes neuronales en los estudios de neurología y psicología que se centraban en el proceso de estudio de la plasticidad neuronal. A medida que se conocían más detalles sobre el funcionamiento de las mismas, se ampliaban los estudios de las redes neuronales artificiales. De esta forma los estudios realizados en las redes neuronales humanas, ayudaban a desarrollar el funcionamiento de las artificiales. El objetivo de estas primeras investigaciones era profundizar en los usos del Machine Learning.
+
+Tipos de Redes Neuronales.
+
+A. Perceptrón: Los perceptrones pueden implementar puertas lógicas como AND, OR o NAND.
+B. Redes neuronales de avance: Menos complejo, fácil de diseñar y mantener,Rápido y veloz [propagación unidireccional] y Altamente sensible a datos ruidosos
+C. Perceptrón multicapa: Se utiliza para el aprendizaje profundo [debido a la presencia de capas densas totalmente conectadas y propagación hacia atrás]
+D. Red neuronal convolucional: Se utiliza para el aprendizaje profundo con pocos parámetros.
+Menos parámetros para aprender en comparación con la capa totalmente conectada
+F. Redes neuronales recurrentes: Modelar datos secuenciales donde se puede suponer que cada muestra depende de las históricas es una de las ventajas y se utiliza con capas de convolución para ampliar la eficacia de los píxeles.
+G. Modelos de secuencia a secuencia: consta de dos redes neuronales recurrentes.
+H. Red neuronal modular: Tiene varias redes diferentes que funcionan de forma independiente y realizan subtarea. Eficiente, entrenamiento independiente y robustez
+
+
+
+
+
+2. Esquema general que involucran las redes neuronales
+
+<p align="center">
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSldcFAP3W-_hYbI1sty276dt00Ll6LFkdbDEvMx1VXfOeA23uz">
+</p>
+
+
+
+
+Y es el valor final del nodo.
+
+W representa los pesos entre los nodos de la capa anterior y el nodo de salida.
+
+X representa los valores de los nodos de la capa anterior.
+
+B representa sesgo , que es un valor adicional presente para cada neurona. El sesgo es esencialmente un peso sin un término de entrada. Es útil para tener un poco más de capacidad de ajuste que no depende de la capa anterior.
+
+H es el valor del nodo intermedio . Este no es el valor final del nodo.
+
+f() se llama Función de Activación y es algo que podemos elegir. Veremos su importancia más adelante.
+
+Finalmente, el valor de salida de este nodo será f(0.57)
+
+3. Elegir un problema interesante.
+
+Mi objetivo a realizar es predecir por medio de una modelo de redes neuronales la salida de un valor continuo, como puede ser el costo de un artículo o la probabilidad. Más específico se pretende realizar una predicción del rendimiento de la gasolina de un vehículo en función de algunos parámetros que afectan la eficiencia del mismo, como pueden ser el peso del vehículo, el número de cilindros y/o el año del automóvil, etc
+
+Para entrenar el modelo de la red neuronal, se utilizara una base de datos de vehículos que cuentan con muchas características del mismo pero solamente se analizaran las que afectan directamente al rendimiento de la gasolina, se van a descartar características como el color, la marca, etc.
+
+
+
+
+
