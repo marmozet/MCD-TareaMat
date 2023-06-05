@@ -2,6 +2,7 @@
 title: "Tarea Individual de Matematicas"
 date: 2023-06-05
 ---
+
 ![Escudo Unison](https://upload.wikimedia.org/wikipedia/commons/6/68/Escudo_Unison.png)
 ## Universidad de Sonora
 <br>
